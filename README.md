@@ -19,15 +19,22 @@ And I conduct regression task.
 I access to the data by using sklearn library.
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+Since this is regression task, I set task of AutoMLConfig equal 'regression'.
+And I want to make the model that has more linearity, so I set primary_metric to 'peason_correlation' 
+But this is not real project, I set early stopping strictly.
+Other logging setting is same with sample of SDK.
 
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+XGBoostRegressor is choiced as best model of auto-ML.
+And the parameter "tree_method": is "auto".
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![automk-rundetail](https://github.com/uemuratakumi/azure-udacity-report3/assets/132246132/b65b051b-6718-45d9-9cc3-b4d7873a9d88)
+
+![automl-best](https://github.com/uemuratakumi/azure-udacity-report3/assets/132246132/c324b18a-4670-408b-a845-0b2015cc0ecc)
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+I used neural network model as the base model since I want to use neural network model in real project, so I try it as a practice.
+And by using hyperdrive, I swing the number of dense matric [10-100] and learing rate[0.0001-0.01].
 
 
 ### Results
