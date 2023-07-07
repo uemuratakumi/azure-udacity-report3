@@ -36,6 +36,9 @@ And the parameter "tree_method": is "auto".
 I used neural network model as the base model since I want to use neural network model in real project, so I try it as a practice.
 And by using hyperdrive, I swing the number of dense matric [10-100] and learing rate[0.0001-0.01].
 
+This is rundetail of hyperdrive.
+![rundetail](https://github.com/uemuratakumi/azure-udacity-report3/assets/132246132/d7c3f2a5-65a3-4f84-8aa4-5be72efd1321)
+
 
 ### Results
 The parameter of best model is dense=20 , learning rate=0.01.
@@ -44,7 +47,10 @@ If I use it, I think loss will more reduced.
 
 ## Model Deployment
 I deployed the nuaral network model to endpoint.
+![endpoint](https://github.com/uemuratakumi/azure-udacity-report3/assets/132246132/f3bfdcf0-f1f0-444a-bc97-4b4b79a045c5)
+
 And I confirmed I can use it correclry.
+
 
 ## Screen Recording
 I made screen cast below.
