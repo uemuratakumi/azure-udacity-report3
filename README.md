@@ -38,18 +38,14 @@ And by using hyperdrive, I swing the number of dense matric [10-100] and learing
 
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+The parameter of best model is dense=20 , learning rate=0.01.
+In this case, I didn't use the dropout and batchnormalization.
+If I use it, I think loss will more reduced.
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+I deployed the nuaral network model to endpoint.
+And I confirmed I can use it correclry.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+I made screen cast below.
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
