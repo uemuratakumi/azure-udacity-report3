@@ -54,5 +54,5 @@ And I confirmed I can use it correclry.
 
 ## Screen Recording
 I made screen cast below.
-https://www.youtube.com/watch?v=874HQTTUJiU
+
 
